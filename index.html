@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>찾았다! 하나님 보물! - 꿈땅 2026 여름캠프</title>
+  <style>
+    :root {
+      --ink: #2d2419;
+      --muted: #6f6254;
+      --paper: #fffaf0;
+      --surface: #ffffff;
+      --line: #e6d8c4;
+      --gold: #b9842b;
+      --forest: #276356;
+      --teal: #2e8f9a;
+      --rose: #c7645c;
+      --shadow: 0 18px 50px rgba(45, 36, 25, .13);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .hero {
+      min-height: 86vh;
+      display: grid;
+      align-items: end;
+      position: relative;
+      overflow: hidden;
+      background: #1d241d;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(90deg, rgba(25, 20, 12, .8), rgba(25, 20, 12, .28) 52%, rgba(25, 20, 12, .1)),
+        url("assets/treasure-hero.png");
+      background-size: cover;
+      background-position: center;
+      transform: scale(1.01);
+    }
+
+    .hero-inner {
+      position: relative;
+      width: min(1120px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 92px 0 52px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 14px;
+      color: #ffe3a3;
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      max-width: 760px;
+      margin: 0;
+      color: #fff7dc;
+      font-size: clamp(44px, 8vw, 86px);
+      line-height: 1.04;
+      letter-spacing: 0;
+      text-shadow: 0 4px 22px rgba(0, 0, 0, .28);
+    }
+
+    .hero-copy {
+      max-width: 680px;
+      margin: 22px 0 0;
+      color: #fff3d0;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 28px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 38px;
+      padding: 8px 13px;
+      border: 1px solid rgba(255, 236, 181, .55);
+      border-radius: 999px;
+      color: #fff9e8;
+      background: rgba(47, 36, 20, .36);
+      backdrop-filter: blur(8px);
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(255, 250, 240, .92);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav-inner {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 10px 0;
+    }
+
+    .nav a {
+      flex: 0 0 auto;
+      padding: 8px 12px;
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .nav a:hover {
+      color: var(--ink);
+      background: #f0e3cf;
+    }
+
+    main {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 44px 0 80px;
+    }
+
+    section {
+      padding: 34px 0;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: end;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    .section-note {
+      max-width: 440px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+      font-weight: 650;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: 0 10px 28px rgba(45, 36, 25, .06);
+    }
+
+    .value-card {
+      padding: 18px;
+      min-height: 172px;
+    }
+
+    .value-card strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--gold);
+      font-size: 13px;
+    }
+
+    .value-card h3 {
+      margin: 0 0 8px;
+      font-size: 21px;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    .value-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 650;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 10px;
+    }
+
+    .time-row {
+      display: grid;
+      grid-template-columns: 118px 1fr 210px;
+      gap: 12px;
+      align-items: stretch;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    .time {
+      color: var(--forest);
+      font-size: 15px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .time-row h3 {
+      margin: 0 0 4px;
+      font-size: 19px;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    .time-row p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 650;
+    }
+
+    .reward {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      color: var(--gold);
+      font-size: 14px;
+      font-weight: 900;
+      text-align: right;
+    }
+
+    .rooms {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .room {
+      padding: 20px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .room::before {
+      content: "";
+      display: block;
+      width: 48px;
+      height: 5px;
+      margin-bottom: 16px;
+      border-radius: 99px;
+      background: var(--gold);
+    }
+
+    .room:nth-child(2)::before {
+      background: var(--forest);
+    }
+
+    .room:nth-child(3)::before {
+      background: var(--teal);
+    }
+
+    .room h3 {
+      margin: 0 0 8px;
+      font-size: 23px;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    .room p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 650;
+    }
+
+    .room ul,
+    .checklist ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .room li,
+    .checklist li {
+      padding: 7px 0;
+      border-top: 1px solid #f0e6d8;
+      color: var(--ink);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .water {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .water-card {
+      padding: 18px;
+      border-left: 5px solid var(--teal);
+    }
+
+    .water-card h3 {
+      margin: 0 0 8px;
+      font-size: 20px;
+      letter-spacing: 0;
+    }
+
+    .water-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 650;
+    }
+
+    .prayer {
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 14px;
+      align-items: stretch;
+    }
+
+    .prayer-main {
+      padding: 28px;
+      color: #fff7dc;
+      background:
+        linear-gradient(120deg, rgba(39, 99, 86, .95), rgba(45, 36, 25, .92)),
+        url("assets/treasure-hero.png");
+      background-size: cover;
+      background-position: center;
+      box-shadow: var(--shadow);
+    }
+
+    .prayer-main h3 {
+      margin: 0 0 12px;
+      font-size: 28px;
+      line-height: 1.22;
+      letter-spacing: 0;
+    }
+
+    .prayer-main p {
+      margin: 0;
+      color: #fff0c2;
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .steps {
+      padding: 22px;
+    }
+
+    .steps ol {
+      margin: 0;
+      padding-left: 22px;
+      font-weight: 800;
+    }
+
+    .steps li {
+      margin: 8px 0;
+    }
+
+    .checklists {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .checklist {
+      padding: 18px;
+    }
+
+    .checklist h3 {
+      margin: 0 0 12px;
+      font-size: 19px;
+      letter-spacing: 0;
+    }
+
+    .cta {
+      margin-top: 30px;
+      padding: 24px;
+      border-radius: 8px;
+      color: #fffaf0;
+      background: var(--forest);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .cta h2 {
+      font-size: 27px;
+    }
+
+    .cta p {
+      margin: 6px 0 0;
+      color: #dff1e9;
+      font-weight: 700;
+    }
+
+    .button {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: #fff5d8;
+      color: var(--forest);
+      font-weight: 900;
+    }
+
+    @media (max-width: 900px) {
+      .grid,
+      .rooms,
+      .water,
+      .prayer,
+      .checklists {
+        grid-template-columns: 1fr;
+      }
+
+      .section-head,
+      .cta {
+        display: block;
+      }
+
+      .section-note,
+      .cta p {
+        margin-top: 10px;
+      }
+
+      .button {
+        margin-top: 16px;
+      }
+
+      .time-row {
+        grid-template-columns: 1fr;
+      }
+
+      .reward {
+        justify-content: flex-start;
+        text-align: left;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .hero {
+        min-height: 78vh;
+      }
+
+      .hero-inner {
+        width: min(100% - 28px, 1120px);
+        padding-bottom: 34px;
+      }
+
+      h1 {
+        font-size: 42px;
+      }
+
+      .hero-copy {
+        font-size: 17px;
+      }
+
+      main {
+        width: min(100% - 24px, 1120px);
+        padding-top: 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <div class="eyebrow">TREASURE EXPEDITION · 2026</div>
+      <h1>찾았다! 하나님 보물!</h1>
+      <p class="hero-copy">꿈땅 친구들이 교회 안 곳곳을 탐험하며 나, 친구, 우리 모두가 하나님께서 숨기신 귀한 보화임을 발견하는 여름캠프입니다.</p>
+      <div class="hero-meta">
+        <span class="pill">토 10:30-16:00</span>
+        <span class="pill">주일 10:45-12:00</span>
+        <span class="pill">4-7세 유치부 및 새친구</span>
+        <span class="pill">시편 139:14</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#vision">세계관</a>
+      <a href="#schedule">시간표</a>
+      <a href="#bible-flow">성경적 흐름</a>
+      <a href="#rooms">방별 미션</a>
+      <a href="#water">물놀이존</a>
+      <a href="#prayer">기도회</a>
+      <a href="#checklist">준비 체크</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="vision">
+      <div class="section-head">
+        <h2>바위에서 보석으로</h2>
+        <p class="section-note">아이들이 마주하는 마음의 바위를 하나님의 말씀과 공동체 경험을 통해 보석의 고백으로 바꾸는 흐름입니다.</p>
+      </div>
+      <div class="grid">
+        <article class="card value-card">
+          <strong>보석 1</strong>
+          <h3>나는 하나님 보물</h3>
+          <p>비교와 부족함을 넘어 하나님이 나를 특별하게 만드셨음을 발견합니다.</p>
+        </article>
+        <article class="card value-card">
+          <strong>보석 2</strong>
+          <h3>친구도 하나님 보물</h3>
+          <p>나와 다른 친구도 하나님이 사랑하시는 귀한 존재임을 배웁니다.</p>
+        </article>
+        <article class="card value-card">
+          <strong>보석 3</strong>
+          <h3>함께하면 더 아름다워</h3>
+          <p>흩어진 조각이 모일 때 보물지도가 완성되는 협력을 경험합니다.</p>
+        </article>
+        <article class="card value-card">
+          <strong>보석 4</strong>
+          <h3>하나님은 기도를 들으세요</h3>
+          <p>놀이를 지나 하나님께 직접 말하는 기도의 자리로 들어갑니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="schedule">
+      <div class="section-head">
+        <h2>토요일 탐험 지도</h2>
+        <p class="section-note">10:30부터 16:00까지, 보물섬 관문에서 시작해 기도회까지 깊어지는 여정입니다.</p>
+      </div>
+      <div class="timeline">
+        <div class="time-row">
+          <div class="time">10:30-10:45</div>
+          <div><h3>탐험 등록</h3><p>이름표, 탐험 여권, 조 팔찌를 받고 꿈땅 보물 탐험대가 됩니다.</p></div>
+          <div class="reward">탐험 여권</div>
+        </div>
+        <div class="time-row">
+          <div class="time">10:45-11:05</div>
+          <div><h3>오프닝 & 탐험대 임명식</h3><p>보물지도 공개, 구호 연습, 탐험 약속 세 가지를 나눕니다.</p></div>
+          <div class="reward">첫 단서 카드</div>
+        </div>
+        <div class="time-row">
+          <div class="time">11:05-11:30</div>
+          <div><h3>버블쇼 "빛나는 관문"</h3><p>비눗방울 관문을 통과하며 각자 다르게 빛나는 보물임을 경험합니다.</p></div>
+          <div class="reward">관문 스티커</div>
+        </div>
+        <div class="time-row">
+          <div class="time">11:30-11:45</div>
+          <div><h3>말씀 "진짜 보물은 무엇일까요?"</h3><p>시편 139:14와 보물상자 오브젝트 토크로 핵심 메시지를 전합니다.</p></div>
+          <div class="reward">말씀 보석</div>
+        </div>
+        <div class="time-row">
+          <div class="time">11:45-12:30</div>
+          <div><h3>방탈출형 순환 미션</h3><p>임마누엘실, 유아실, 비전홀을 돌며 나, 친구, 우리의 보석을 찾습니다.</p></div>
+          <div class="reward">방별 보석</div>
+        </div>
+        <div class="time-row">
+          <div class="time">12:30-13:10</div>
+          <div><h3>점심 "탐험가 식당"</h3><p>감사기도 후 조별로 식사하며 오전에 찾은 보석을 말로 나눕니다.</p></div>
+          <div class="reward">식탁 교제</div>
+        </div>
+        <div class="time-row">
+          <div class="time">13:10-13:25</div>
+          <div><h3>물놀이 준비</h3><p>환복, 화장실, 준비운동, 안전 약속으로 사랑의 질서를 세웁니다.</p></div>
+          <div class="reward">안전 약속</div>
+        </div>
+        <div class="time-row">
+          <div class="time">13:25-14:20</div>
+          <div><h3>보물섬 은혜의 바다</h3><p>보물 건지기, 스펀지 릴레이, 물풍선 배달로 협력을 배웁니다.</p></div>
+          <div class="reward">물방울 보석</div>
+        </div>
+        <div class="time-row">
+          <div class="time">14:20-14:40</div>
+          <div><h3>정리 & 환복</h3><p>몸을 따뜻하게 하고 젖은 옷과 분실물을 확인하며 질서를 회복합니다.</p></div>
+          <div class="reward">컨디션 확인</div>
+        </div>
+        <div class="time-row">
+          <div class="time">14:40-15:00</div>
+          <div><h3>오아시스 간식</h3><p>간식과 물을 나누며 오늘 가장 즐거웠던 보물을 짧게 나눕니다.</p></div>
+          <div class="reward">감사 나눔</div>
+        </div>
+        <div class="time-row">
+          <div class="time">15:00-15:35</div>
+          <div><h3>보물지도 퍼즐 & 보물상자</h3><p>흩어진 단서를 모아 지도를 완성하고 나만의 보물상자를 꾸밉니다.</p></div>
+          <div class="reward">완성 지도</div>
+        </div>
+        <div class="time-row">
+          <div class="time">15:35-16:00</div>
+          <div><h3>꿈땅 기도회</h3><p>감사, 사랑 고백, 친구 축복기도로 탐험의 가장 깊은 곳에 도착합니다.</p></div>
+          <div class="reward">기도 보석</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="bible-flow">
+      <div class="section-head">
+        <h2>처음부터 기도회까지 이어지는 성경적 흐름</h2>
+        <p class="section-note">각 프로그램은 따로 떨어진 놀이가 아니라, 시편 139:14의 고백이 아이들의 몸과 말과 기도로 이어지도록 연결됩니다.</p>
+      </div>
+      <div class="water">
+        <article class="card water-card">
+          <h3>부름받은 탐험대</h3>
+          <p>등록과 오프닝은 하나님이 내 이름을 아시고 부르신다는 감각을 심습니다. 아이는 참석자가 아니라 초대받은 탐험대가 됩니다.</p>
+        </article>
+        <article class="card water-card">
+          <h3>창조의 반짝임</h3>
+          <p>버블쇼와 말씀은 모두 다르게 빛나는 존재라는 메시지로 이어집니다. "하나님이 나를 특별하게 만드셨어요"가 핵심 고백입니다.</p>
+        </article>
+        <article class="card water-card">
+          <h3>나에서 친구와 우리로</h3>
+          <p>방별 미션은 나의 소중함에서 멈추지 않고 친구 사랑과 공동체 협력으로 확장됩니다. 보물은 나만이 아니라 우리 모두입니다.</p>
+        </article>
+        <article class="card water-card">
+          <h3>식탁과 물놀이의 공동체</h3>
+          <p>점심과 간식은 감사와 나눔의 시간이고, 물놀이는 경쟁보다 함께 기뻐하는 은혜의 바다로 운영합니다.</p>
+        </article>
+        <article class="card water-card">
+          <h3>보물지도에서 마음으로</h3>
+          <p>흩어진 단서가 하나의 지도가 되듯, 하루의 활동은 "진짜 보물은 하나님이 사랑하시는 우리"라는 문장으로 모입니다.</p>
+        </article>
+        <article class="card water-card">
+          <h3>기도로 완성되는 여정</h3>
+          <p>마지막 목적지는 선물이 아니라 하나님 앞입니다. 감사기도, 사랑 고백, 친구 축복기도로 탐험의 절정에 들어갑니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="rooms">
+      <div class="section-head">
+        <h2>방별 미션 코스</h2>
+        <p class="section-note">세 공간을 각각 하나의 관문으로 바꾸어, 아이들이 직접 단서를 찾고 고백하게 합니다.</p>
+      </div>
+      <div class="rooms">
+        <article class="card room">
+          <h3>임마누엘실<br>나의 보석 동굴</h3>
+          <p>자기 이름 카드를 찾고 거울을 보며 "나는 하나님 보물이에요"를 고백합니다.</p>
+          <ul>
+            <li>이름 카드 숨기기</li>
+            <li>거울 보석 미션</li>
+            <li>나의 보석 스티커</li>
+          </ul>
+        </article>
+        <article class="card room">
+          <h3>유아실<br>친구의 보석 숲</h3>
+          <p>친구 특징 카드를 뽑고 서로에게 "너도 하나님 보물이야"라고 말합니다.</p>
+          <ul>
+            <li>친구를 찾아라</li>
+            <li>축복 카드 건네기</li>
+            <li>친구의 보석 스티커</li>
+          </ul>
+        </article>
+        <article class="card room">
+          <h3>비전홀<br>하나 되는 지도 방</h3>
+          <p>흩어진 퍼즐 조각을 함께 맞추며 "우리는 함께 하나님 나라를 이루어요"를 배웁니다.</p>
+          <ul>
+            <li>대형 퍼즐 맞추기</li>
+            <li>보물지도 완성</li>
+            <li>우리의 보석 스티커</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="water">
+      <div class="section-head">
+        <h2>물놀이존 프로그램</h2>
+        <p class="section-note">물놀이는 단순 놀이가 아니라 "친구와 함께 보물을 찾는 바다"로 운영합니다.</p>
+      </div>
+      <div class="water">
+        <article class="card water-card">
+          <h3>보물 건지기</h3>
+          <p>뜰채로 보석과 말씀 캡슐을 건지며 보석보다 귀한 하나님의 말씀을 찾습니다.</p>
+        </article>
+        <article class="card water-card">
+          <h3>스펀지 릴레이</h3>
+          <p>조금씩 물을 옮겨 목표선을 채우며 함께하면 채워진다는 메시지를 배웁니다.</p>
+        </article>
+        <article class="card water-card">
+          <h3>물풍선 보석 배달</h3>
+          <p>둘이 수건을 잡고 물풍선을 옮기며 친구 마음도 조심히 다루는 법을 배웁니다.</p>
+        </article>
+        <article class="card water-card">
+          <h3>안전 약속</h3>
+          <p>뛰지 않기, 얼굴에 물 뿌리지 않기, 선생님 신호에 멈추기를 반복 확인합니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="prayer">
+      <div class="section-head">
+        <h2>탐험의 절정</h2>
+        <p class="section-note">마지막 목적지는 물건 보물이 아니라 하나님 앞에 나아가는 자리입니다.</p>
+      </div>
+      <div class="prayer">
+        <article class="card prayer-main">
+          <h3>꿈땅 기도회<br>"하나님, 제가 왔어요"</h3>
+          <p>부드러운 조명, 잔잔한 찬양, 원형 자리에서 감사기도와 친구 축복기도를 드립니다.</p>
+        </article>
+        <article class="card steps">
+          <ol>
+            <li>오늘 찾은 보물 회상</li>
+            <li>하나님께 감사기도</li>
+            <li>하나님을 향한 사랑 고백</li>
+            <li>옆 친구를 위한 축복기도</li>
+            <li>주일 보화 수여 예고</li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <section id="checklist">
+      <div class="section-head">
+        <h2>준비 체크</h2>
+        <p class="section-note">회의 때 바로 나눌 수 있도록 물품, 안전, 운영 체크를 핵심만 묶었습니다.</p>
+      </div>
+      <div class="checklists">
+        <article class="card checklist">
+          <h3>인쇄물</h3>
+          <ul>
+            <li>탐험 여권</li>
+            <li>단서 카드</li>
+            <li>방별 미션 카드</li>
+            <li>말씀 카드</li>
+            <li>수료증</li>
+          </ul>
+        </article>
+        <article class="card checklist">
+          <h3>공간/소품</h3>
+          <ul>
+            <li>큰 보물지도</li>
+            <li>보물상자</li>
+            <li>보석 모형</li>
+            <li>발자국 동선</li>
+            <li>LED 조명</li>
+          </ul>
+        </article>
+        <article class="card checklist">
+          <h3>안전/운영</h3>
+          <ul>
+            <li>보호자 연락처</li>
+            <li>알레르기 목록</li>
+            <li>미끄럼 방지 매트</li>
+            <li>구급상자</li>
+            <li>환복/분실물 바구니</li>
+          </ul>
+        </article>
+      </div>
+      <div class="cta">
+        <div>
+          <h2>주일에는 보화의 항구로</h2>
+          <p>친구를 찾아라, 전체 선언, 수료증과 보화 선물로 어드벤처를 마무리합니다.</p>
+        </div>
+        <a class="button" href="#top">처음으로</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
