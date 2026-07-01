@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">기도회와 보호자 축복기도 흐름</title>
+  <desc id="desc">꿈아이홀 사무실 대기부터 기도회 입장과 귀가 인계까지의 흐름</desc>
+  <rect width="1200" height="560" fill="#fffaf0"/>
+  <text x="600" y="62" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="34" font-weight="800" fill="#2d2419">기도회 마지막 5분 운영 흐름</text>
+  <text x="600" y="100" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="18" font-weight="700" fill="#6f6254">보호자가 오지 못한 아이는 조 담당 교사가 같은 방식으로 함께 기도합니다</text>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" text-anchor="middle">
+    <g transform="translate(70 185)">
+      <rect width="210" height="160" rx="10" fill="#fff" stroke="#e6d8c4"/>
+      <text x="105" y="55" font-size="23" font-weight="850" fill="#2d2419">사전 연락</text>
+      <text x="105" y="92" font-size="16" font-weight="750" fill="#6f6254">참여 여부 확인</text>
+      <text x="105" y="122" font-size="16" font-weight="750" fill="#6f6254">대리 교사 배정</text>
+    </g>
+    <g transform="translate(350 185)">
+      <rect width="210" height="160" rx="10" fill="#fff" stroke="#e6d8c4"/>
+      <text x="105" y="55" font-size="23" font-weight="850" fill="#2d2419">사무실 대기</text>
+      <text x="105" y="92" font-size="16" font-weight="750" fill="#6f6254">15:45까지</text>
+      <text x="105" y="122" font-size="16" font-weight="750" fill="#6f6254">조용히 대기</text>
+    </g>
+    <g transform="translate(630 185)">
+      <rect width="210" height="160" rx="10" fill="#fff" stroke="#e6d8c4"/>
+      <text x="105" y="55" font-size="23" font-weight="850" fill="#2d2419">입장 신호</text>
+      <text x="105" y="92" font-size="16" font-weight="750" fill="#6f6254">15:50</text>
+      <text x="105" y="122" font-size="16" font-weight="750" fill="#6f6254">문 조용히 열기</text>
+    </g>
+    <g transform="translate(910 185)">
+      <rect width="210" height="160" rx="10" fill="#fff" stroke="#e6d8c4"/>
+      <text x="105" y="55" font-size="23" font-weight="850" fill="#2d2419">손잡고 기도</text>
+      <text x="105" y="92" font-size="16" font-weight="750" fill="#6f6254">짧은 축복기도</text>
+      <text x="105" y="122" font-size="16" font-weight="750" fill="#6f6254">기도 후 귀가 인계</text>
+    </g>
+  </g>
+  <g stroke="#b9842b" stroke-width="7" stroke-linecap="round" fill="none">
+    <path d="M292 265 H338"/><path d="M572 265 H618"/><path d="M852 265 H898"/>
+  </g>
+  <rect x="230" y="410" width="740" height="72" rx="10" fill="#276356"/>
+  <text x="600" y="456" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="22" font-weight="850" fill="#fff7dc">토요일 탐험은 선물이 아니라 축복기도로 마무리합니다</text>
+</svg>

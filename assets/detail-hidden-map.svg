@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">비전홀 어둠 속 보물지도 미션</title>
+  <desc id="desc">빈 지도에 LED 랜턴을 비추면 숨은 길과 보석이 드러나는 미션 설명</desc>
+  <rect width="1200" height="560" fill="#18251f"/>
+  <text x="600" y="58" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="34" font-weight="800" fill="#fff7dc">비전홀: 어둠 속 보물지도 방</text>
+  <text x="600" y="96" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="18" font-weight="700" fill="#d7c99a">낮에도 어둡게 만들고, LED/UV 랜턴으로 숨은 길을 찾습니다</text>
+  <rect x="110" y="140" width="660" height="330" rx="12" fill="#f0dfbd" stroke="#b9842b" stroke-width="5"/>
+  <path d="M175 395 C260 260, 360 335, 455 232 S610 250, 695 180" fill="none" stroke="#d2b86b" stroke-width="10" stroke-linecap="round" stroke-dasharray="16 18"/>
+  <path d="M175 395 C260 260, 360 335, 455 232 S610 250, 695 180" fill="none" stroke="#fff39a" stroke-width="4" stroke-linecap="round" opacity=".85"/>
+  <g fill="#fff39a" opacity=".9">
+    <circle cx="220" cy="338" r="9"/><circle cx="350" cy="310" r="9"/><circle cx="505" cy="230" r="9"/><circle cx="640" cy="210" r="9"/>
+  </g>
+  <polygon points="694,145 726,178 694,211 662,178" fill="#d9a322"/>
+  <text x="440" y="448" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="22" font-weight="850" fill="#2d2419">처음엔 빈 지도, 빛을 비추면 길이 보입니다</text>
+  <g transform="translate(850 175)" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+    <rect width="250" height="240" rx="10" fill="#fffaf0"/>
+    <text x="125" y="46" text-anchor="middle" font-size="24" font-weight="850" fill="#2d2419">진행 순서</text>
+    <text x="28" y="92" font-size="17" font-weight="750" fill="#2d2419">1. 조명 낮추기</text>
+    <text x="28" y="128" font-size="17" font-weight="750" fill="#2d2419">2. 빈 지도 지급</text>
+    <text x="28" y="164" font-size="17" font-weight="750" fill="#2d2419">3. 랜턴으로 길 찾기</text>
+    <text x="28" y="200" font-size="17" font-weight="750" fill="#2d2419">4. 팀 보석 붙이기</text>
+  </g>
+</svg>

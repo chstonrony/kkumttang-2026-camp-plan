@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">보석 수호대 팀 구성</title>
+  <desc id="desc">루비, 사파이어, 에메랄드, 토파즈 네 팀의 색과 메시지</desc>
+  <rect width="1200" height="560" fill="#fffaf0"/>
+  <text x="600" y="64" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="34" font-weight="800" fill="#2d2419">보석 수호대 팀 세계관</text>
+  <text x="600" y="102" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="18" font-weight="700" fill="#6f6254">조끼, 목걸이, 스티커, 깃발 색을 이 기준으로 통일합니다</text>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" text-anchor="middle">
+    <g transform="translate(80 156)">
+      <rect width="245" height="300" rx="10" fill="#fff" stroke="#e6d8c4"/>
+      <polygon points="122,36 178,92 122,148 66,92" fill="#c63d3d"/>
+      <text x="122" y="192" font-size="24" font-weight="850" fill="#2d2419">사랑의 루비</text>
+      <text x="122" y="224" font-size="17" font-weight="750" fill="#8f2f2f">하나님은 우리를 사랑하세요</text>
+      <text x="122" y="264" font-size="15" font-weight="700" fill="#6f6254">빨강 / 사랑 / 환영</text>
+    </g>
+    <g transform="translate(358 156)">
+      <rect width="245" height="300" rx="10" fill="#fff" stroke="#e6d8c4"/>
+      <polygon points="122,36 178,92 122,148 66,92" fill="#3763a8"/>
+      <text x="122" y="192" font-size="24" font-weight="850" fill="#2d2419">말씀의 사파이어</text>
+      <text x="122" y="224" font-size="17" font-weight="750" fill="#244f8f">하나님의 말씀을 따라가요</text>
+      <text x="122" y="264" font-size="15" font-weight="700" fill="#6f6254">파랑 / 하늘 / 믿음</text>
+    </g>
+    <g transform="translate(636 156)">
+      <rect width="245" height="300" rx="10" fill="#fff" stroke="#e6d8c4"/>
+      <polygon points="122,36 178,92 122,148 66,92" fill="#2f8c5a"/>
+      <text x="122" y="192" font-size="24" font-weight="850" fill="#2d2419">생명의 에메랄드</text>
+      <text x="122" y="224" font-size="17" font-weight="750" fill="#276356">하나님 안에서 자라가요</text>
+      <text x="122" y="264" font-size="15" font-weight="700" fill="#6f6254">초록 / 생명 / 성장</text>
+    </g>
+    <g transform="translate(914 156)">
+      <rect width="245" height="300" rx="10" fill="#fff" stroke="#e6d8c4"/>
+      <polygon points="122,36 178,92 122,148 66,92" fill="#d9a322"/>
+      <text x="122" y="192" font-size="24" font-weight="850" fill="#2d2419">소망의 토파즈</text>
+      <text x="122" y="224" font-size="17" font-weight="750" fill="#9b6f18">예수님은 세상의 빛이세요</text>
+      <text x="122" y="264" font-size="15" font-weight="700" fill="#6f6254">노랑 / 빛 / 소망</text>
+    </g>
+  </g>
+</svg>
