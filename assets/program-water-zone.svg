@@ -1,13 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
-  <title id="title">물놀이존 코너 운영도</title>
-  <desc id="desc">보물 건지기, 스펀지 릴레이, 물풍선 보석 배달, 안전 담당 위치를 보여주는 물놀이 운영도</desc>
-  <rect width="1200" height="560" fill="#f4fbff"/>
-  <text x="600" y="58" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="34" font-weight="850" fill="#2d2419">14. 물놀이존: 보물섬 은혜의 바다</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">물놀이존 실제 운영 장면</title>
+  <desc id="desc">교회 안 물놀이존에 보물 건지기, 스펀지 릴레이, 물풍선 배달 코너와 안전 담당 위치가 배치된 장면</desc>
+  <rect width="1400" height="820" fill="#fff8e9"/>
+  <rect x="56" y="56" width="1288" height="708" rx="22" fill="#eef9ff" stroke="#cfe3f5" stroke-width="5"/>
+  <text x="700" y="112" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="42" font-weight="900" fill="#2d2419">물놀이존 실제 세팅 예시</text>
+  <text x="700" y="153" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" font-weight="750" fill="#47616b">세 코너를 넓게 띄우고, 안전 담당은 진행하지 않고 전체만 봅니다</text>
+
+  <!-- zones -->
   <g font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" text-anchor="middle">
-    <rect x="80" y="145" width="290" height="210" rx="10" fill="#fff" stroke="#cfe3f5"/><text x="225" y="200" font-size="24" font-weight="850" fill="#2d2419">코너 A</text><text x="225" y="238" font-size="21" font-weight="850" fill="#2e8f9a">보물 건지기</text><text x="225" y="278" font-size="16" font-weight="750" fill="#6f6254">뜰채 / 보석 / 말씀 캡슐</text>
-    <rect x="455" y="145" width="290" height="210" rx="10" fill="#fff" stroke="#cfe3f5"/><text x="600" y="200" font-size="24" font-weight="850" fill="#2d2419">코너 B</text><text x="600" y="238" font-size="21" font-weight="850" fill="#2e8f9a">스펀지 릴레이</text><text x="600" y="278" font-size="16" font-weight="750" fill="#6f6254">물통 / 스펀지 / 목표선</text>
-    <rect x="830" y="145" width="290" height="210" rx="10" fill="#fff" stroke="#cfe3f5"/><text x="975" y="200" font-size="24" font-weight="850" fill="#2d2419">코너 C</text><text x="975" y="238" font-size="21" font-weight="850" fill="#2e8f9a">물풍선 배달</text><text x="975" y="278" font-size="16" font-weight="750" fill="#6f6254">둘이 수건 잡고 이동</text>
+    <g transform="translate(105 220)">
+      <rect width="330" height="300" rx="18" fill="#fff" stroke="#b9d9ed" stroke-width="4"/>
+      <ellipse cx="165" cy="130" rx="115" ry="58" fill="#9eddf0" stroke="#2e8f9a" stroke-width="5"/>
+      <circle cx="132" cy="118" r="12" fill="#d9a322"/><circle cx="184" cy="142" r="12" fill="#c7645c"/><circle cx="210" cy="110" r="12" fill="#2f8c5a"/>
+      <path d="M105 160 L150 120" stroke="#6f6254" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="98" cy="166" r="16" fill="none" stroke="#6f6254" stroke-width="6"/>
+      <text x="165" y="238" font-size="28" font-weight="900" fill="#2d2419">코너 A</text>
+      <text x="165" y="274" font-size="24" font-weight="900" fill="#2e8f9a">보물 건지기</text>
+    </g>
+
+    <g transform="translate(535 220)">
+      <rect width="330" height="300" rx="18" fill="#fff" stroke="#b9d9ed" stroke-width="4"/>
+      <rect x="58" y="92" width="70" height="90" rx="12" fill="#9eddf0" stroke="#2e8f9a" stroke-width="4"/>
+      <rect x="202" y="92" width="70" height="90" rx="12" fill="#e7f6fb" stroke="#2e8f9a" stroke-width="4"/>
+      <path d="M128 138 H202" stroke="#b9842b" stroke-width="8" stroke-linecap="round" stroke-dasharray="12 14"/>
+      <rect x="144" y="122" width="42" height="26" rx="7" fill="#f2d067"/>
+      <text x="165" y="238" font-size="28" font-weight="900" fill="#2d2419">코너 B</text>
+      <text x="165" y="274" font-size="24" font-weight="900" fill="#2e8f9a">스펀지 릴레이</text>
+    </g>
+
+    <g transform="translate(965 220)">
+      <rect width="330" height="300" rx="18" fill="#fff" stroke="#b9d9ed" stroke-width="4"/>
+      <circle cx="115" cy="128" r="30" fill="#d9a322"/>
+      <circle cx="216" cy="128" r="30" fill="#c7645c"/>
+      <path d="M120 132 Q165 170 210 132" fill="none" stroke="#6f6254" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="165" cy="155" r="20" fill="#75c8e8"/>
+      <rect x="132" y="184" width="66" height="28" rx="12" fill="#e6d8c4"/>
+      <text x="165" y="238" font-size="28" font-weight="900" fill="#2d2419">코너 C</text>
+      <text x="165" y="274" font-size="24" font-weight="900" fill="#2e8f9a">물풍선 배달</text>
+    </g>
   </g>
-  <rect x="175" y="420" width="850" height="62" rx="10" fill="#276356"/>
-  <text x="600" y="459" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" font-weight="850" fill="#fff">안전 담당 1명은 진행하지 않고 전체만 봅니다: 뛰기 / 미끄럼 / 추위 / 얼굴 물뿌리기 확인</text>
+
+  <!-- children and arrows -->
+  <g fill="none" stroke="#b9842b" stroke-width="8" stroke-linecap="round" stroke-dasharray="18 18">
+    <path d="M445 370 H520"/>
+    <path d="M875 370 H950"/>
+  </g>
+
+  <!-- safety teacher -->
+  <g transform="translate(590 565)" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+    <rect x="0" y="0" width="220" height="115" rx="14" fill="#276356"/>
+    <circle cx="50" cy="46" r="23" fill="#f0caa5"/>
+    <path d="M22 98 Q50 60 78 98 Z" fill="#fff7dc"/>
+    <text x="138" y="42" text-anchor="middle" font-size="22" font-weight="900" fill="#fff7dc">안전 담당</text>
+    <text x="138" y="74" text-anchor="middle" font-size="15" font-weight="750" fill="#e1f0eb">진행하지 않고 전체만 보기</text>
+  </g>
+
+  <rect x="215" y="705" width="970" height="46" rx="10" fill="#fff"/>
+  <text x="700" y="735" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="20" font-weight="900" fill="#2d2419">체크: 뛰지 않기 / 미끄럼 확인 / 추위 확인 / 얼굴에 물 뿌리지 않기 / 코너 간격 넓게</text>
 </svg>

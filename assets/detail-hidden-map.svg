@@ -1,23 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
-  <title id="title">비전홀 어둠 속 보물지도 미션</title>
-  <desc id="desc">빈 지도에 LED 랜턴을 비추면 숨은 길과 보석이 드러나는 미션 설명</desc>
-  <rect width="1200" height="560" fill="#18251f"/>
-  <text x="600" y="58" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="34" font-weight="800" fill="#fff7dc">비전홀: 어둠 속 보물지도 방</text>
-  <text x="600" y="96" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="18" font-weight="700" fill="#d7c99a">낮에도 어둡게 만들고, LED/UV 랜턴으로 숨은 길을 찾습니다</text>
-  <rect x="110" y="140" width="660" height="330" rx="12" fill="#f0dfbd" stroke="#b9842b" stroke-width="5"/>
-  <path d="M175 395 C260 260, 360 335, 455 232 S610 250, 695 180" fill="none" stroke="#d2b86b" stroke-width="10" stroke-linecap="round" stroke-dasharray="16 18"/>
-  <path d="M175 395 C260 260, 360 335, 455 232 S610 250, 695 180" fill="none" stroke="#fff39a" stroke-width="4" stroke-linecap="round" opacity=".85"/>
-  <g fill="#fff39a" opacity=".9">
-    <circle cx="220" cy="338" r="9"/><circle cx="350" cy="310" r="9"/><circle cx="505" cy="230" r="9"/><circle cx="640" cy="210" r="9"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">비전홀 방탈출 세팅 장면</title>
+  <desc id="desc">어둡게 만든 비전홀에서 아이들이 랜턴으로 빈 보물지도를 비추며 숨은 길을 찾는 실제 세팅 예시</desc>
+  <defs>
+    <radialGradient id="lampGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff7a8" stop-opacity=".95"/>
+      <stop offset="45%" stop-color="#ffe66a" stop-opacity=".45"/>
+      <stop offset="100%" stop-color="#ffe66a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="room" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#101a18"/>
+      <stop offset=".55" stop-color="#18251f"/>
+      <stop offset="1" stop-color="#0d1415"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="820" fill="#fff8e9"/>
+  <rect x="58" y="55" width="1284" height="710" rx="22" fill="url(#room)" filter="url(#softShadow)"/>
+
+  <text x="700" y="105" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="42" font-weight="900" fill="#fff7dc">비전홀 방탈출 세팅 예시</text>
+  <text x="700" y="146" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" font-weight="750" fill="#d9c994">불을 낮추고, 아이들이 랜턴으로 “보이지 않는 지도”를 찾아내는 장면</text>
+
+  <!-- back wall and curtain -->
+  <path d="M110 205 L1290 205 L1215 575 L185 575 Z" fill="#1c3029" stroke="#315347" stroke-width="4"/>
+  <path d="M120 207 C160 250 150 515 116 575 L198 575 C232 500 232 285 196 207 Z" fill="#50302b"/>
+  <path d="M1280 207 C1240 250 1250 515 1284 575 L1202 575 C1168 500 1168 285 1204 207 Z" fill="#50302b"/>
+
+  <!-- treasure map on wall -->
+  <g transform="translate(390 225)">
+    <rect x="0" y="0" width="620" height="310" rx="14" fill="#ead8ac" stroke="#b9842b" stroke-width="8"/>
+    <path d="M65 238 C140 145 230 200 300 122 S445 92 538 48" fill="none" stroke="#a7823d" stroke-width="13" stroke-linecap="round" stroke-dasharray="18 20" opacity=".32"/>
+    <path d="M65 238 C140 145 230 200 300 122 S445 92 538 48" fill="none" stroke="#fff06a" stroke-width="7" stroke-linecap="round" stroke-dasharray="18 20"/>
+    <circle cx="138" cy="178" r="12" fill="#fff06a"/>
+    <circle cx="302" cy="122" r="12" fill="#fff06a"/>
+    <circle cx="438" cy="86" r="12" fill="#fff06a"/>
+    <polygon points="540,24 580,64 540,104 500,64" fill="#f3c34d" stroke="#fff4a8" stroke-width="4"/>
+    <text x="310" y="275" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="24" font-weight="900" fill="#4a3219">빛을 비추면 길이 보여요</text>
   </g>
-  <polygon points="694,145 726,178 694,211 662,178" fill="#d9a322"/>
-  <text x="440" y="448" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="22" font-weight="850" fill="#2d2419">처음엔 빈 지도, 빛을 비추면 길이 보입니다</text>
-  <g transform="translate(850 175)" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif">
-    <rect width="250" height="240" rx="10" fill="#fffaf0"/>
-    <text x="125" y="46" text-anchor="middle" font-size="24" font-weight="850" fill="#2d2419">진행 순서</text>
-    <text x="28" y="92" font-size="17" font-weight="750" fill="#2d2419">1. 조명 낮추기</text>
-    <text x="28" y="128" font-size="17" font-weight="750" fill="#2d2419">2. 빈 지도 지급</text>
-    <text x="28" y="164" font-size="17" font-weight="750" fill="#2d2419">3. 랜턴으로 길 찾기</text>
-    <text x="28" y="200" font-size="17" font-weight="750" fill="#2d2419">4. 팀 보석 붙이기</text>
+
+  <!-- floor -->
+  <path d="M185 575 L1215 575 L1325 735 L75 735 Z" fill="#24382f"/>
+  <g fill="#d8f36a" opacity=".9">
+    <ellipse cx="290" cy="650" rx="24" ry="10" transform="rotate(-15 290 650)"/>
+    <ellipse cx="365" cy="632" rx="24" ry="10" transform="rotate(-10 365 632)"/>
+    <ellipse cx="1000" cy="638" rx="24" ry="10" transform="rotate(15 1000 638)"/>
+    <ellipse cx="1076" cy="662" rx="24" ry="10" transform="rotate(18 1076 662)"/>
   </g>
+
+  <!-- lantern beams -->
+  <path d="M335 605 L505 332 L565 360 L390 642 Z" fill="url(#lampGlow)" opacity=".75"/>
+  <path d="M1020 612 L870 338 L812 365 L962 642 Z" fill="url(#lampGlow)" opacity=".75"/>
+
+  <!-- children left -->
+  <g transform="translate(250 545)">
+    <circle cx="70" cy="30" r="28" fill="#8a5635"/>
+    <path d="M34 92 Q70 50 106 92 L120 162 L20 162 Z" fill="#d4aa42"/>
+    <rect x="104" y="86" width="46" height="20" rx="10" fill="#25302a" transform="rotate(-24 104 86)"/>
+    <circle cx="150" cy="77" r="10" fill="#fff06a"/>
+    <text x="70" y="202" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="18" font-weight="850" fill="#fff7dc">루비팀 친구들</text>
+  </g>
+
+  <!-- children right -->
+  <g transform="translate(975 552)">
+    <circle cx="70" cy="26" r="28" fill="#6f4931"/>
+    <path d="M33 92 Q70 48 107 92 L122 160 L18 160 Z" fill="#3763a8"/>
+    <rect x="-10" y="82" width="48" height="20" rx="10" fill="#25302a" transform="rotate(22 -10 82)"/>
+    <circle cx="-16" cy="76" r="10" fill="#fff06a"/>
+    <text x="70" y="202" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="18" font-weight="850" fill="#fff7dc">사파이어팀 친구들</text>
+  </g>
+
+  <!-- teacher -->
+  <g transform="translate(103 505)">
+    <circle cx="60" cy="34" r="30" fill="#7a5335"/>
+    <path d="M20 110 Q60 55 100 110 L112 205 L8 205 Z" fill="#276356"/>
+    <rect x="120" y="52" width="142" height="82" rx="12" fill="#fff8e9" stroke="#e6d8c4"/>
+    <text x="191" y="84" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="17" font-weight="900" fill="#2d2419">교사 위치</text>
+    <text x="191" y="112" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="14" font-weight="750" fill="#6f6254">입구/동선/안전 확인</text>
+  </g>
+
+  <!-- callout panels -->
+  <g font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+    <rect x="90" y="230" width="250" height="170" rx="12" fill="#fffaf0" stroke="#e6d8c4"/>
+    <text x="215" y="268" text-anchor="middle" font-size="23" font-weight="900" fill="#2d2419">세팅 체크</text>
+    <text x="120" y="306" font-size="17" font-weight="780" fill="#2d2419">1. 암막/조명 낮춤</text>
+    <text x="120" y="338" font-size="17" font-weight="780" fill="#2d2419">2. 지도는 벽 중앙</text>
+    <text x="120" y="370" font-size="17" font-weight="780" fill="#2d2419">3. 랜턴은 팀당 1개</text>
+
+    <rect x="1062" y="235" width="245" height="170" rx="12" fill="#fffaf0" stroke="#e6d8c4"/>
+    <text x="1184" y="273" text-anchor="middle" font-size="23" font-weight="900" fill="#2d2419">진행 흐름</text>
+    <text x="1092" y="311" font-size="17" font-weight="780" fill="#2d2419">빈 지도 보기</text>
+    <text x="1092" y="343" font-size="17" font-weight="780" fill="#2d2419">빛으로 길 찾기</text>
+    <text x="1092" y="375" font-size="17" font-weight="780" fill="#2d2419">팀 보석 붙이기</text>
+  </g>
+
+  <rect x="310" y="690" width="780" height="48" rx="10" fill="#fff7dc" opacity=".95"/>
+  <text x="700" y="722" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="21" font-weight="900" fill="#2d2419">핵심 장면: “처음엔 안 보였지만, 하나님은 처음부터 알고 계셨어요.”</text>
 </svg>
