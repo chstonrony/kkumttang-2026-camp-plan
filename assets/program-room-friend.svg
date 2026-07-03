@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">유아실 친구의 보석 숲 진행법</title>
+  <desc id="desc">친구 특징 카드 뽑기, 친구 찾기, 축복 카드 건네기, 여권 스티커 붙이기 순서</desc>
+  <rect width="1200" height="560" fill="#f4fbf4"/>
+  <text x="600" y="58" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="34" font-weight="850" fill="#2d2419">12. 유아실: 친구의 보석 숲</text>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" text-anchor="middle">
+    <g transform="translate(80 150)"><rect width="230" height="220" rx="10" fill="#fff" stroke="#d4e8d4"/><text x="115" y="65" font-size="23" font-weight="850" fill="#2d2419">카드 뽑기</text><text x="115" y="103" font-size="16" font-weight="750" fill="#6f6254">웃는 친구 / 새친구 / 색깔</text><circle cx="115" cy="155" r="28" fill="#2f8c5a"/></g>
+    <g transform="translate(365 150)"><rect width="230" height="220" rx="10" fill="#fff" stroke="#d4e8d4"/><text x="115" y="65" font-size="23" font-weight="850" fill="#2d2419">친구 찾기</text><text x="115" y="103" font-size="16" font-weight="750" fill="#6f6254">뛰지 않고 걷기</text><circle cx="88" cy="155" r="25" fill="#2e8f9a"/><circle cx="142" cy="155" r="25" fill="#d9a322"/></g>
+    <g transform="translate(650 150)"><rect width="230" height="220" rx="10" fill="#fff" stroke="#d4e8d4"/><text x="115" y="65" font-size="23" font-weight="850" fill="#2d2419">축복 건네기</text><text x="115" y="103" font-size="16" font-weight="750" fill="#6f6254">스티커는 옷/손등에</text><text x="115" y="165" font-size="18" font-weight="850" fill="#276356">“너도 하나님 보물이야”</text></g>
+    <g transform="translate(935 150)"><rect width="190" height="220" rx="10" fill="#fff" stroke="#d4e8d4"/><text x="95" y="65" font-size="23" font-weight="850" fill="#2d2419">여권</text><text x="95" y="103" font-size="16" font-weight="750" fill="#6f6254">친구 보석</text><text x="95" y="165" font-size="18" font-weight="850" fill="#276356">완료!</text></g>
+  </g>
+  <text x="600" y="455" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="22" font-weight="850" fill="#276356">교사 포인트: 소외되는 아이가 없도록 카드 문구를 미리 조정합니다</text>
+</svg>

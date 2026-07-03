@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">방탈출형 순환 미션 운영도</title>
+  <desc id="desc">네 팀이 임마누엘실, 유아실, 비전홀, 꿈아이홀 쉼 포인트를 순환하는 방식</desc>
+  <rect width="1200" height="560" fill="#fff8e9"/>
+  <text x="600" y="60" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="34" font-weight="850" fill="#2d2419">10. 방탈출형 순환 미션: 팀별 이동 방식</text>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" text-anchor="middle">
+    <rect x="120" y="145" width="210" height="120" rx="10" fill="#fff" stroke="#e6d8c4"/><text x="225" y="193" font-size="24" font-weight="850" fill="#2d2419">임마누엘실</text><text x="225" y="226" font-size="16" font-weight="750" fill="#6f6254">나의 이름 찾기</text>
+    <rect x="495" y="145" width="210" height="120" rx="10" fill="#fff" stroke="#e6d8c4"/><text x="600" y="193" font-size="24" font-weight="850" fill="#2d2419">유아실</text><text x="600" y="226" font-size="16" font-weight="750" fill="#6f6254">친구 찾기</text>
+    <rect x="870" y="145" width="210" height="120" rx="10" fill="#18251f" stroke="#b9842b"/><text x="975" y="193" font-size="24" font-weight="850" fill="#fff7dc">비전홀</text><text x="975" y="226" font-size="16" font-weight="750" fill="#d7c99a">LED 지도 찾기</text>
+    <rect x="495" y="365" width="210" height="100" rx="10" fill="#fff" stroke="#e6d8c4"/><text x="600" y="408" font-size="24" font-weight="850" fill="#2d2419">꿈아이홀 쉼</text><text x="600" y="438" font-size="16" font-weight="750" fill="#6f6254">물 / 인원 확인</text>
+  </g>
+  <g fill="none" stroke="#b9842b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M335 205 H480"/><path d="M710 205 H855"/><path d="M975 272 C940 350 815 405 720 415"/><path d="M480 415 C360 405 250 345 225 275"/>
+  </g>
+  <text x="600" y="520" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="20" font-weight="850" fill="#276356">각 방 10분 진행 + 3분 이동 / 이동 전후 반드시 인원 확인</text>
+</svg>

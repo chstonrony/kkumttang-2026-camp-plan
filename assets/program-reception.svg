@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">임마누엘실 접수와 굿즈 수령 진행도</title>
+  <desc id="desc">도착한 아이가 이름 확인, 굿즈 수령, 여권 수령, 팀 자리 착석으로 이어지는 접수 흐름</desc>
+  <rect width="1200" height="560" fill="#fffaf0"/>
+  <text x="600" y="58" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="34" font-weight="850" fill="#2d2419">9-1. 임마누엘실 접수 &amp; 탐험 굿즈 수령</text>
+  <text x="600" y="96" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="18" font-weight="750" fill="#6f6254">교사는 아이를 “참석자”가 아니라 “보석 수호대”로 맞이합니다</text>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" text-anchor="middle">
+    <g transform="translate(60 160)"><rect width="220" height="190" rx="10" fill="#fff" stroke="#e6d8c4"/><circle cx="110" cy="58" r="30" fill="#c7645c"/><text x="110" y="66" font-size="30" font-weight="900" fill="#fff">1</text><text x="110" y="115" font-size="23" font-weight="850" fill="#2d2419">이름 확인</text><text x="110" y="148" font-size="15" font-weight="750" fill="#6f6254">출석부 / 보호자 번호</text></g>
+    <g transform="translate(340 160)"><rect width="220" height="190" rx="10" fill="#fff" stroke="#e6d8c4"/><circle cx="110" cy="58" r="30" fill="#b9842b"/><text x="110" y="66" font-size="30" font-weight="900" fill="#fff">2</text><text x="110" y="115" font-size="23" font-weight="850" fill="#2d2419">굿즈 지급</text><text x="110" y="148" font-size="15" font-weight="750" fill="#6f6254">모자 / 랜턴 / 돋보기</text></g>
+    <g transform="translate(620 160)"><rect width="220" height="190" rx="10" fill="#fff" stroke="#e6d8c4"/><circle cx="110" cy="58" r="30" fill="#2e8f9a"/><text x="110" y="66" font-size="30" font-weight="900" fill="#fff">3</text><text x="110" y="115" font-size="23" font-weight="850" fill="#2d2419">여권 수령</text><text x="110" y="148" font-size="15" font-weight="750" fill="#6f6254">이름 스티커 붙이기</text></g>
+    <g transform="translate(900 160)"><rect width="220" height="190" rx="10" fill="#fff" stroke="#e6d8c4"/><circle cx="110" cy="58" r="30" fill="#276356"/><text x="110" y="66" font-size="30" font-weight="900" fill="#fff">4</text><text x="110" y="115" font-size="23" font-weight="850" fill="#2d2419">팀 자리</text><text x="110" y="148" font-size="15" font-weight="750" fill="#6f6254">색깔 표식 / 조용히 대기</text></g>
+  </g>
+  <rect x="235" y="410" width="730" height="70" rx="10" fill="#276356"/>
+  <text x="600" y="454" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="22" font-weight="850" fill="#fff7dc">진행자 멘트: “오늘 너는 보물을 찾는 탐험대예요!”</text>
+</svg>

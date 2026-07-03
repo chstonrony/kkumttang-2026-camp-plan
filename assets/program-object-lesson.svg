@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">말씀 오브젝트 토크 진행 순서</title>
+  <desc id="desc">보물상자에서 금화, 왕관, 보석, 거울을 꺼내며 진짜 보물이 아이 자신임을 보여주는 흐름</desc>
+  <rect width="1200" height="560" fill="#fffaf0"/>
+  <text x="600" y="60" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="34" font-weight="850" fill="#2d2419">9-4. 말씀 “진짜 보물은 무엇일까요?”</text>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" text-anchor="middle">
+    <g transform="translate(95 158)"><rect width="190" height="170" rx="10" fill="#fff" stroke="#e6d8c4"/><circle cx="95" cy="58" r="32" fill="#d9a322"/><text x="95" y="66" font-size="30" font-weight="900" fill="#fff">1</text><text x="95" y="116" font-size="22" font-weight="850" fill="#2d2419">금화</text><text x="95" y="146" font-size="15" font-weight="750" fill="#6f6254">반짝이는 것</text></g>
+    <g transform="translate(365 158)"><rect width="190" height="170" rx="10" fill="#fff" stroke="#e6d8c4"/><circle cx="95" cy="58" r="32" fill="#b9842b"/><text x="95" y="66" font-size="30" font-weight="900" fill="#fff">2</text><text x="95" y="116" font-size="22" font-weight="850" fill="#2d2419">왕관</text><text x="95" y="146" font-size="15" font-weight="750" fill="#6f6254">멋져 보이는 것</text></g>
+    <g transform="translate(635 158)"><rect width="190" height="170" rx="10" fill="#fff" stroke="#e6d8c4"/><circle cx="95" cy="58" r="32" fill="#2e8f9a"/><text x="95" y="66" font-size="30" font-weight="900" fill="#fff">3</text><text x="95" y="116" font-size="22" font-weight="850" fill="#2d2419">보석</text><text x="95" y="146" font-size="15" font-weight="750" fill="#6f6254">귀해 보이는 것</text></g>
+    <g transform="translate(905 158)"><rect width="190" height="170" rx="10" fill="#fff" stroke="#e6d8c4"/><circle cx="95" cy="58" r="32" fill="#276356"/><text x="95" y="66" font-size="30" font-weight="900" fill="#fff">4</text><text x="95" y="116" font-size="22" font-weight="850" fill="#2d2419">거울</text><text x="95" y="146" font-size="15" font-weight="750" fill="#6f6254">진짜 보물은 너</text></g>
+  </g>
+  <rect x="190" y="405" width="820" height="72" rx="10" fill="#fff" stroke="#e6d8c4"/>
+  <text x="600" y="450" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="22" font-weight="850" fill="#2d2419">마지막에 거울을 보여주며 “하나님이 찾으시는 보물은 바로 너야”</text>
+</svg>
